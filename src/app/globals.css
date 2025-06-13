@@ -13,3 +13,7 @@
   font-weight: 800;
   font-style: normal;
 }
+html, body {
+  background-color: #000000;
+  overflow-x: hidden;
+}

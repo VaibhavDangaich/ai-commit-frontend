@@ -3,7 +3,7 @@ import Button from "./(components)/Button";
 
 export default function Home() {
   return (
-    <div className="min-w-screen min-h-screen bg-black flex flex-col items-center justify-center pt-30 ">
+    <div className="min-w-screen min-h-screen bg-black flex flex-col items-center justify-center pt-30 overflow-hidden ">
       <div className="w-[1200px] h-[500px] mt-40">
         <div className="relative w-[1200px] h-[500px] rounded-4xl overflow-hidden -mt-40">
           {/* Blurred background image */}
@@ -22,7 +22,7 @@ export default function Home() {
         </div>
        
       </div>
-      <div>
+      <div className="w-[1200px] -mt-10">
         <h1 className=" text-[22px]  text-[#ffffff] manrope-font">Features</h1>
         <div className="grid grid-cols-3 grid-flow-row gap-4 mt-4">
           <div className="bg-[#404F47] flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
@@ -31,29 +31,33 @@ export default function Home() {
 
           </div>
           <div className="bg-[#404F47] flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
-            <h1 className="text-3xl mb-4">🪄</h1>
+            <h1 className="text-3xl mb-4">🪄 </h1>
             <h1 className="text-xl font-bold mb-2 text-white">One-Key Commit Magic</h1>
             <p className="text-sm">Simply press "y" and GitSage auto-commits using the AI-generated message. No manual message typing. Just code and confirm.</p>
 
           </div>
           <div className="bg-[#404F47] flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
-            <h1 className="text-xl font-bold mb-2 text-white">AI-Powered Commit Messages</h1>
+            <h1 className="text-3xl mb-4">🔢</h1>
+            <h1 className="text-xl font-bold mb-2 text-white"> Instant Branch Pushing</h1>
+            <p className="text-sm">GitSage auto-detects branches. Just type the number beside your desired branch, and your commit is pushed—lightning fast and hassle-free.</p>
+
+          </div>
+          <div className="bg-[#404F47] flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+            <h1 className="text-3xl mb-4">⚡</h1>
+            <h1 className="text-xl font-bold mb-2 text-white"> Blazing Fast Workflow</h1>
             <p className="text-sm">Generate intelligent commit messages tailored to your code changes using state-of-the-art AI. Say goodbye to generic messages forever</p>
 
           </div>
           <div className="bg-[#404F47] flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
-            <h1 className="text-xl font-bold mb-2 text-white">AI-Powered Commit Messages</h1>
-            <p className="text-sm">Generate intelligent commit messages tailored to your code changes using state-of-the-art AI. Say goodbye to generic messages forever</p>
+            <h1 className="text-3xl mb-4">🧠</h1>
+            <h1 className="text-xl font-bold mb-2 text-white"> Developer-Centric Design</h1>
+            <p className="text-sm">Every interaction is designed to minimize cognitive load. Simple prompts, keyboard-first UX, and clear outputs keep you in the flow.</p>
 
           </div>
           <div className="bg-[#404F47] flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
-            <h1 className="text-xl font-bold mb-2 text-white">AI-Powered Commit Messages</h1>
-            <p className="text-sm">Generate intelligent commit messages tailored to your code changes using state-of-the-art AI. Say goodbye to generic messages forever</p>
-
-          </div>
-          <div className="bg-[#404F47] flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
-            <h1 className="text-xl font-bold mb-2 text-white">AI-Powered Commit Messages</h1>
-            <p className="text-sm">Generate intelligent commit messages tailored to your code changes using state-of-the-art AI. Say goodbye to generic messages forever</p>
+            <h1 className="text-3xl mb-4">🔗</h1>
+            <h1 className="text-xl font-bold mb-2 text-white">Effortless Integration</h1>
+            <p className="text-sm">Works with your existing Git workflow and terminal setup. No new habits—just a smart layer on top of what you already use</p>
 
           </div>
 
