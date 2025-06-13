@@ -58,17 +58,24 @@ export default function Home() {
             <p className="text-sm text-white">Generate intelligent commit messages tailored to your code changes using state-of-the-art AI. Say goodbye to generic messages forever</p>
 
           </div>
-          <div className="bg-[#404F47] flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="bg-[url('/brains.png')] bg-cover bg-center flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
             <h1 className="text-3xl mb-4">🧠</h1>
             <h1 className="text-xl font-bold mb-2 text-white"> Developer-Centric Design</h1>
-            <p className="text-sm">Every interaction is designed to minimize cognitive load. Simple prompts, keyboard-first UX, and clear outputs keep you in the flow.</p>
+            <p className="text-sm text-white">Every interaction is designed to minimize cognitive load. Simple prompts, keyboard-first UX, and clear outputs keep you in the flow.</p>
 
           </div>
-          <div className="bg-[#404F47] flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
-            <h1 className="text-3xl mb-4">🔗</h1>
-            <h1 className="text-xl font-bold mb-2 text-white">Effortless Integration</h1>
-            <p className="text-sm">Works with your existing Git workflow and terminal setup. No new habits—just a smart layer on top of what you already use</p>
+          <div className="relative bg-[url('/terminal2.avif')] bg-cover bg-center rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out overflow-hidden">
+            {/* Apply blur on a semi-transparent overlay */}
+            <div className="absolute inset-0 backdrop-blur-xxs bg-black/10 z-0"></div>
 
+            {/* Content */}
+            <div className="relative flex flex-col justify-center p-4 z-10">
+              <h1 className="text-3xl mb-4">🔗</h1>
+              <h1 className="text-xl font-bold mb-2 text-white">Effortless Integration</h1>
+              <p className="text-sm text-white">
+                Works with your existing Git workflow and terminal setup. No new habits—just a smart layer on top of what you already use
+              </p>
+            </div>
           </div>
 
         </div>
