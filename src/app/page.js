@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Button from "./(components)/Button";
+import Installation from "./(components)/Installation";
 
 export default function Home() {
   return (
@@ -24,8 +25,8 @@ export default function Home() {
       </div>
       <div className="w-[1200px] -mt-10">
         
-        <h1 id="features" className=" text-[22px] text-[#ffffff] manrope-font">Features</h1>
-        <div className="grid grid-cols-3 grid-flow-row gap-4 mt-4">
+        <h1 id="features" className=" text-[30px] text-[#ffffff] manrope-font">Features</h1>
+        <div className="grid grid-cols-2 grid-flow-row gap-4 mt-4">
           <div className="bg-[url('/bg2.svg')] bg-cover bg-center flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
             <img src="/bg6.png" alt="GitSage Logo" className="w-[50px] h-[50px] mb-4 rounded-full shadow-lg" />
             <h1 className="text-xl font-bold mb-2 text-white">AI-Powered Commit Messages</h1>
@@ -79,6 +80,7 @@ export default function Home() {
           </div>
 
         </div>
+        <Installation></Installation>
       </div>
     </div>
   );
