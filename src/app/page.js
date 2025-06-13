@@ -25,7 +25,7 @@ export default function Home() {
         </div>
        
       </div>
-      <div className="w-[1200px] -mt-10">
+      <div className="w-[1200px] -mt-30">
         
         <h1 id="features" className=" text-[30px] text-[#ffffff] manrope-font">Features</h1>
         <div className="grid grid-cols-2 grid-flow-row gap-4 mt-4">
