@@ -10,7 +10,8 @@ function Navbar() {
               </div>
               <div>
                     <ul className='flex gap-4 ml-4'>
-                        <li className='text-[#ffffff] font-semibold text-[16px] manrope-font '>Features</li>
+                      <li className='text-[#ffffff] font-semibold text-[16px] manrope-font '>
+                          <a href='#features'>Features</a></li>
                         <li className='text-[#ffffff] font-semibold text-[16px] manrope-font'>Usuage</li>
                         <li className='text-[#ffffff] font-semibold text-[16px] manrope-font'>Benefits</li>
                     </ul>

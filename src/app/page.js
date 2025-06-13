@@ -23,29 +23,39 @@ export default function Home() {
        
       </div>
       <div className="w-[1200px] -mt-10">
-        <h1 className=" text-[22px]  text-[#ffffff] manrope-font">Features</h1>
+        
+        <h1 id="features" className=" text-[22px] text-[#ffffff] manrope-font">Features</h1>
         <div className="grid grid-cols-3 grid-flow-row gap-4 mt-4">
-          <div className="bg-[#404F47] flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="bg-[url('/bg2.svg')] bg-cover bg-center flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+            <img src="/bg6.png" alt="GitSage Logo" className="w-[50px] h-[50px] mb-4 rounded-full shadow-lg" />
             <h1 className="text-xl font-bold mb-2 text-white">AI-Powered Commit Messages</h1>
-            <p className="text-sm ">Generate intelligent commit messages tailored to your code changes using state-of-the-art AI. Say goodbye to generic messages forever</p>
+            <p className="text-sm text-white ">Generate intelligent commit messages tailored to your code changes using state-of-the-art AI. Say goodbye to generic messages forever</p>
 
           </div>
-          <div className="bg-[#404F47] flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="bg-[url('/bg3.svg')] bg-cover bg-center flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
             <h1 className="text-3xl mb-4">🪄 </h1>
             <h1 className="text-xl font-bold mb-2 text-white">One-Key Commit Magic</h1>
-            <p className="text-sm">Simply press "y" and GitSage auto-commits using the AI-generated message. No manual message typing. Just code and confirm.</p>
+            <p className="text-sm text-white" >Simply press "y" and GitSage auto-commits using the AI-generated message. No manual message typing. Just code and confirm.</p>
 
           </div>
-          <div className="bg-[#404F47] flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
-            <h1 className="text-3xl mb-4">🔢</h1>
-            <h1 className="text-xl font-bold mb-2 text-white"> Instant Branch Pushing</h1>
-            <p className="text-sm">GitSage auto-detects branches. Just type the number beside your desired branch, and your commit is pushed—lightning fast and hassle-free.</p>
+          <div className="relative rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300 ease-in-out">
+            {/* Background image with blur */}
+            <div className="absolute inset-7 bg-no-repeat bg-[url('/bg4.svg')] bg-cover bg-center backdrop-blur-md"></div>
 
+            {/* Overlay for darkening + content */}
+            <div className="relative z-10 flex flex-col justify-center p-4 bg-opacity-40 backdrop-blur-xs rounded-lg">
+              <h1 className="text-3xl mb-4">🔢</h1>
+              <h1 className="text-xl font-bold mb-2 text-white">Instant Branch Pushing</h1>
+              <p className="text-sm text-white">
+                GitSage auto-detects branches. Just type the number beside your desired branch,
+                and your commit is pushed—lightning fast and hassle-free.
+              </p>
+            </div>
           </div>
-          <div className="bg-[#404F47] flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="bg-[url('/bg5.jpg')] bg-cover bg-center flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
             <h1 className="text-3xl mb-4">⚡</h1>
             <h1 className="text-xl font-bold mb-2 text-white"> Blazing Fast Workflow</h1>
-            <p className="text-sm">Generate intelligent commit messages tailored to your code changes using state-of-the-art AI. Say goodbye to generic messages forever</p>
+            <p className="text-sm text-white">Generate intelligent commit messages tailored to your code changes using state-of-the-art AI. Say goodbye to generic messages forever</p>
 
           </div>
           <div className="bg-[#404F47] flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
