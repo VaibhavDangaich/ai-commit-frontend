@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Button from "./(components)/Button";
 import Installation from "./(components)/Installation";
+import Usuage from "./(components)/Usuage";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
             </h1>
 
             <h3 className="text-[#ffffff] text-center">GitSage is a command-line tool that leverages AI to generate meaningful and descriptive Git commit messages, streamlining your development workflow.</h3>
+            <Button></Button>
           </div>
         
        
@@ -81,6 +83,7 @@ export default function Home() {
 
         </div>
         <Installation></Installation>
+        <Usuage></Usuage>
       </div>
     </div>
   );

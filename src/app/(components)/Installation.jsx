@@ -18,7 +18,7 @@ function Installation() {
         <div>
             <div className='flex gap-2 items-center mt-10'>
                 <h1 id="install" className=" text-[30px] text-[#ffffff] manrope-font">Installation</h1>
-                <MdInstallDesktop color='white' />
+                <MdInstallDesktop color='white' size={30} />
 
             </div>
             <div>

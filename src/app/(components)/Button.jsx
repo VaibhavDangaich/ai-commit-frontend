@@ -1,18 +1,26 @@
 "use client";
 import React from 'react'
+import { MdInstallDesktop } from "react-icons/md";
 
 function Button() {
   return (
       <div>
-          <button
-              onClick={() => {
-                  navigator.clipboard.writeText("npm install -g ai-commit-cli-vd");
-                  alert("Copied to clipboard!");
-              }}
-              className="bg-pink-600 text-white px-6 py-2 rounded-lg hover:bg-pink-700 shadow-lg transition-all"
-          >
-              Install Now
-          </button>
+          <a href='#install'>
+              <div className='flex justify-center items-center w-[300px] border border-black rounded-xl gap-5 mt-10 h-[40px] hover:scale-115 duration-200 ease-in-out hover:shadow-lg shadow-black'>
+
+                  <button className='cascadia-code-font font-extrabold text-2xl'>
+                      Installation
+                  </button>
+                  <MdInstallDesktop size={25}></MdInstallDesktop>
+
+
+
+              </div>
+
+          </a>
+         
+         
+
     </div>
   )
 }
