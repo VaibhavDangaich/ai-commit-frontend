@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-      <div className='absolute w-full p-2 mt-2'>
+      <div className='absolute w-full p-2 mt-2 '>
           <div className='flex justify-between'>
               <div className=''>
                   <h1 className='text-[#ffffff] font-bold text-[18px] manrope-font'>GitSage</h1>
@@ -16,9 +16,11 @@ function Navbar() {
                     </ul>
                   
               </div>
-              
+           
+
           </div>
           <hr className=' text-white mt-2'></hr>
+
     </div>
   )
 }
