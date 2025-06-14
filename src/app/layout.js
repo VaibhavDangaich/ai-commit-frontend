@@ -1,9 +1,13 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Manrope, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
 import Navbar from "./(components)/Navbar";
 import { Toaster } from "react-hot-toast";
 import MusicControl from "./(components)/MusicControl";
 import Head from "next/head";
+
+
+const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope' });
+const robotoCondensed = Roboto_Condensed({ subsets: ['latin'], variable: '--font-roboto-condensed' });
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,15 +29,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
       
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
-            <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Manrope:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
-            <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+      
       </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${manrope.variable} ${robotoCondensed.variable} antialiased`}
       >
         <Navbar></Navbar>
         <Toaster></Toaster>
