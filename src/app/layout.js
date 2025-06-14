@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "PushMuse | AI-powered Git Tool",
-  description: "Generate smarter Git commits with AI-powered assistance",
+  description: "Generate smarter Git commits with AI-powered assistance.",
 };
 
 export default function RootLayout({ children }) {
