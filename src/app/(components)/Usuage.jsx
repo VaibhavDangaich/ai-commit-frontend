@@ -23,7 +23,7 @@ function Usuage() {
              
               
           </div>
-          <p className='text-white'>GitSage is designed to blend effortlessly into your existing Git workflow. Here’s how to use it:</p>
+          <p className='text-white'>PushMuse is designed to blend effortlessly into your existing Git workflow. Here’s how to use it:</p>
           <div>
               <p className=' text-white text-xl font-semibold mt-8 mb-2'>1️⃣ Stage Your Changes</p>
               <p className="text-gray-300 text-sm mb-2">
@@ -73,7 +73,7 @@ function Usuage() {
               </div>
               <p className=' text-white text-xl font-semibold mt-4 mb-2'>4️⃣ Choose Your Branch</p>
               <p className="text-gray-300 text-sm mb-2">
-                  GitSage will list available branches like this:
+                  PushMuse will list available branches like this:
               </p>
               <div className='px-4 py-2 mt-5 rounded-md border border-gray-600 bg-gray-800 flex justify-between items-center w-[480px] h-[80px] mb-5'>
                   <p className='cascadia-code-font text-white'>

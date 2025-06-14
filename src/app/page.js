@@ -16,9 +16,9 @@ export default function Home() {
           {/* Dark overlay */}
           <div className="absolute inset-0 bg-opacity-60 flex flex-col items-center justify-center">
             <h1 className="text-white text-[48px] -mt-10 font-extrabold text-center px-8">
-              GitSage : Commit Smarter, Not Harder
+              PushMuse : Commit Smarter, Not Harder
             </h1>
-            <h3 className="text-[#ffffff] text-center">GitSage is a command-line tool that leverages AI to generate meaningful and descriptive Git commit messages, streamlining your development workflow.</h3>
+            <h3 className="text-[#ffffff] text-center">PushMuse is a command-line tool that leverages AI to generate meaningful and descriptive Git commit messages, streamlining your development workflow.</h3>
             <div className="flex gap-7">
               <Button></Button>
               <Button2></Button2>
@@ -54,7 +54,7 @@ export default function Home() {
               <h1 className="text-3xl mb-4">🔢</h1>
               <h1 className="text-xl font-bold mb-2 text-white">Instant Branch Pushing</h1>
               <p className="text-sm text-white">
-                GitSage auto-detects branches. Just type the number beside your desired branch,
+                PushMuse auto-detects branches. Just type the number beside your desired branch,
                 and your commit is pushed—lightning fast and hassle-free.
               </p>
             </div>

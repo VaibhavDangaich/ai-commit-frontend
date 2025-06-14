@@ -5,7 +5,7 @@ function Navbar() {
       <div className='absolute w-full p-2 mt-2 '>
           <div className='flex justify-between'>
               <div className=''>
-                  <h1 className='text-[#ffffff] font-bold text-[18px] manrope-font'>GitSage</h1>
+                  <h1 className='text-[#ffffff] font-bold text-[18px] manrope-font'>PushMuse</h1>
                   
               </div>
               <div>
