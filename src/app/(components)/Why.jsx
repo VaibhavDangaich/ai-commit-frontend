@@ -22,7 +22,7 @@ function Why() {
                   >
                       <Card className=" bg-[url('/c1.gif')] ease-in-out z-20 ">
                           <div>
-                              <div className='card hover:scale-200 hover:pr-15 ease-in-out duration-200'>
+                              <div>
 
                                   <h3 className='text-white text-center font-semibold text-2xl mt-4 manrope-font'> ✅ Pro-Level Git Descriptions</h3>
                                   <p className='leading-relaxed cascadia-code-font text-sm text-gray-100/90 mt-5 text-center mt-4'>💬 GitHub-Ready Extended Messages</p>
@@ -46,7 +46,7 @@ function Why() {
                       </Card>
                       <Card className="bg-[url('/c2.gif')]" >
                           <div>
-                              <div className='card hover:scale-200 hover:pr-15 ease-in-out duration-200'>
+                              <div >
 
                                   <h3 className='text-white text-center font-semibold text-2xl mt-4 manrope-font'> ✅ Zero Learning Curve</h3>
                                   <p className='leading-relaxed cascadia-code-font text-sm text-gray-100/90 mt-5 text-center mt-4'>🧘 Use Your Existing Workflow</p>
@@ -64,7 +64,7 @@ function Why() {
                       
                       <Card className="bg-[url('/c3.gif')]">
                           <div>
-                              <div className='card hover:scale-200 hover:pr-30 ease-in-out duration-200'>
+                              <div>
 
                                   <h3 className='text-white text-center font-semibold text-2xl mt-4 manrope-font'> 👨‍💻 Developer-Built, Developer-First</h3>
                                   <p className='leading-relaxed cascadia-code-font text-sm text-gray-100/90 mt-5 text-center mt-4'>→ Designed From Real Frustrations</p>
