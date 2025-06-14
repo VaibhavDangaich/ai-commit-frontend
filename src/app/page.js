@@ -32,19 +32,18 @@ export default function Home() {
       </div>
       <div className="w-[1200px] -mt-30">
         
-        <h1 id="features" className=" text-[30px] text-[#ffffff] manrope-font scroll-mt-32">Features</h1>
+        <h1 id="features" className="text-[30px] text-[#ffffff] manrope-font scroll-mt-32">Features</h1>
         <div className="grid grid-cols-2 grid-flow-row gap-4 mt-4">
           <div className="bg-[url('/bg2.svg')] bg-cover bg-center flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
             <img src="/bg6.png" alt="GitSage Logo" className="w-[50px] h-[50px] mb-4 rounded-full shadow-lg" />
             <h1 className="text-xl font-bold mb-2 text-white">AI-Powered Commit Messages</h1>
-            <p className="text-sm text-white ">Generate intelligent commit messages tailored to your code changes using state-of-the-art AI. Say goodbye to generic messages forever.</p>
+            <p className="text-sm text-white">Generate intelligent commit messages tailored to your code changes using state-of-the-art AI. Say goodbye to generic messages forever.</p>
 
           </div>
           <div className="bg-[url('/bg3.svg')] bg-cover bg-center flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
             <h1 className="text-3xl mb-4">🪄 </h1>
             <h1 className="text-xl font-bold mb-2 text-white">One-Key Commit Magic</h1>
-            <p className="text-sm text-white" >Simply press "y" and GitSage auto-commits using the AI-generated message. No manual message typing. Just code and confirm.</p>
-
+            <p className="text-sm text-white" >Simply press &quot;y&quot; and GitSage auto-commits using the AI-generated message. No manual message typing. Just code and confirm.</p>
           </div>
           <div className="relative rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300 ease-in-out">
             {/* Background image with blur */}
