@@ -2,6 +2,7 @@ import Image from "next/image";
 import Button from "./(components)/Button";
 import Installation from "./(components)/Installation";
 import Usuage from "./(components)/Usuage";
+import Why from "./(components)/Why";
 
 export default function Home() {
   return (
@@ -32,7 +33,7 @@ export default function Home() {
           <div className="bg-[url('/bg2.svg')] bg-cover bg-center flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
             <img src="/bg6.png" alt="GitSage Logo" className="w-[50px] h-[50px] mb-4 rounded-full shadow-lg" />
             <h1 className="text-xl font-bold mb-2 text-white">AI-Powered Commit Messages</h1>
-            <p className="text-sm text-white ">Generate intelligent commit messages tailored to your code changes using state-of-the-art AI. Say goodbye to generic messages forever</p>
+            <p className="text-sm text-white ">Generate intelligent commit messages tailored to your code changes using state-of-the-art AI. Say goodbye to generic messages forever.</p>
 
           </div>
           <div className="bg-[url('/bg3.svg')] bg-cover bg-center flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
@@ -84,6 +85,7 @@ export default function Home() {
         </div>
         <Installation></Installation>
         <Usuage></Usuage>
+        <Why></Why>
       </div>
     </div>
   );

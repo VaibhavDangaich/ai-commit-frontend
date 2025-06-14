@@ -1,11 +1,22 @@
 "use client";
 import React from 'react';
+import toast from 'react-hot-toast';
 import { BsKeyboard } from "react-icons/bs";
 import { IoIosCopy } from 'react-icons/io';
 
+
 function Usuage() {
+    const copyToClipboard = (text) => {
+        navigator.clipboard.writeText(text)
+            .then(() => {
+                toast.success("Copied to clipboard!"); // You can replace this with a toast or custom message
+            })
+            .catch((err) => {
+                console.error("Failed to copy: ", err);
+            });
+    };
   return (
-      <div>
+      <div className='rounded-4xl bg-gradient-to-br from-[#1F1C2C] to-[#928DAB] p-5'>
           <div className='flex items-center gap-2'>
               <h1 id="usuage" className=" text-[30px] text-[#ffffff] manrope-font">Usuage</h1>
               <BsKeyboard color='white' size={30} />
