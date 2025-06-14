@@ -16,6 +16,7 @@
 html, body {
   background-color: #000000;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .cascadia-code-font {
@@ -23,4 +24,32 @@ html, body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+.card {
+  position: relative;
+  z-index: 10;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+
+ 
+  background: rgba(128, 128, 128, 0.72);
+  opacity: 0;
+ 
+  border-radius: 12px;
+  ; /* Slightly larger for outer blur */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  
+}
+
+.card:hover::before {
+  opacity: 1;
+  transform: scale(1.2);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+
+  
 }

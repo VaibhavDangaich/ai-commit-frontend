@@ -3,6 +3,7 @@ import Button from "./(components)/Button";
 import Installation from "./(components)/Installation";
 import Usuage from "./(components)/Usuage";
 import Why from "./(components)/Why";
+import Button2 from "./(components)/Button2";
 
 export default function Home() {
   return (
@@ -17,9 +18,12 @@ export default function Home() {
             <h1 className="text-white text-[48px] -mt-10 font-extrabold text-center px-8">
               GitSage : Commit Smarter, Not Harder
             </h1>
-
             <h3 className="text-[#ffffff] text-center">GitSage is a command-line tool that leverages AI to generate meaningful and descriptive Git commit messages, streamlining your development workflow.</h3>
-            <Button></Button>
+            <div className="flex gap-7">
+              <Button></Button>
+              <Button2></Button2>
+              
+            </div>
           </div>
         
        
@@ -28,7 +32,7 @@ export default function Home() {
       </div>
       <div className="w-[1200px] -mt-30">
         
-        <h1 id="features" className=" text-[30px] text-[#ffffff] manrope-font">Features</h1>
+        <h1 id="features" className=" text-[30px] text-[#ffffff] manrope-font scroll-mt-32">Features</h1>
         <div className="grid grid-cols-2 grid-flow-row gap-4 mt-4">
           <div className="bg-[url('/bg2.svg')] bg-cover bg-center flex flex-col justify-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
             <img src="/bg6.png" alt="GitSage Logo" className="w-[50px] h-[50px] mb-4 rounded-full shadow-lg" />
