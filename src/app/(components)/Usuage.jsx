@@ -9,7 +9,7 @@ function Usuage() {
     const copyToClipboard = (text) => {
         navigator.clipboard.writeText(text)
             .then(() => {
-                toast.success("Copied to clipboard!"); // You can replace this with a toast or custom message
+                toast.success("Copied to clipboard!!"); // You can replace this with a toast or custom message
             })
             .catch((err) => {
                 console.error("Failed to copy: ", err);
