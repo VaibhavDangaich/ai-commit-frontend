@@ -26,7 +26,7 @@ function Installation() {
             </div>
             <div className='px-4 py-2 mt-5 rounded-md border border-gray-600 bg-gray-800 flex justify-between items-center w-[480px] h-[40px] mb-5'>
                 <p className='cascadia-code-font text-white'>$ npm install -g ai-commit-cli-vd</p>
-                <button onClick={() => copyToClipboard("npm install -g ai-commit-cli-vd")}>
+                <button onClick={() => copyToClipboard("npm install -g ai-commit-cli-vd")} className='cursor-pointer'>
                     <IoIosCopy className='text-white ' />
                 </button>
             </div>

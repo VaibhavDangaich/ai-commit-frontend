@@ -32,14 +32,14 @@ function Usuage() {
               <div className='flex gap-5 items-center'>
                   <div className='px-4 py-2 mt-5 rounded-md border border-gray-600 bg-gray-800 flex justify-between items-center w-[480px] h-[40px] mb-5'>
                       <p className='cascadia-code-font text-white'>$ git add .</p>
-                      <button onClick={() => copyToClipboard("git add .")}>
+                      <button onClick={() => copyToClipboard("git add .")} className='cursor-pointer'>
                           <IoIosCopy className='text-white ' />
                       </button>
                   </div>
                   <p className='text-white'>OR</p>
                   <div className='px-4 py-2 mt-5 rounded-md border border-gray-600 bg-gray-800 flex justify-between items-center w-[480px] h-[40px] mb-5'>
                       <p className='cascadia-code-font text-white'>$ git add (filename) </p>
-                      <button onClick={() => copyToClipboard("git add (your filename")}>
+                      <button onClick={() => copyToClipboard("git add (your filename")} className='cursor-pointer'>
                           <IoIosCopy className='text-white ' />
                       </button>
                   </div>
@@ -52,7 +52,7 @@ function Usuage() {
               </p>
               <div className='px-4 py-2 mt-5 rounded-md border border-gray-600 bg-gray-800 flex justify-between items-center w-[480px] h-[40px] mb-5'>
                   <p className='cascadia-code-font text-white'>$ ai-commit</p>
-                  <button onClick={() => copyToClipboard("ai-commit")}>
+                  <button onClick={() => copyToClipboard("ai-commit")} className='cursor-pointer'>
                       <IoIosCopy className='text-white ' />
                   </button>
               </div>
