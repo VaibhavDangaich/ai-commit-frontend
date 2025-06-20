@@ -4,6 +4,7 @@ import Navbar from "./(components)/Navbar";
 import { Toaster } from "react-hot-toast";
 import MusicControl from "./(components)/MusicControl";
 import Head from "next/head";
+import { Analytics } from '@vercel/analytics/next';
 
 
 const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope' });
@@ -39,7 +40,8 @@ export default function RootLayout({ children }) {
         <MusicControl></MusicControl>
        
         {children}
-     
+        <Analytics />
+
       </body>
     </html>
   );
